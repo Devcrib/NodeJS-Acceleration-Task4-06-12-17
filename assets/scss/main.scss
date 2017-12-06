@@ -1,0 +1,96 @@
+body{
+  background-color : #eee;
+}
+.site-wrapper{
+  display: block;
+  padding : 1rem;
+
+  .row{
+    width : 100%;
+  }
+  .desc{
+    font-size: 2.5rem;
+  }
+
+  section{
+    .title{
+      font-size : 2rem;
+      padding : 10px 0;
+    }
+    &.hidden{
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  section.profile{
+    margin : 10px 0;
+
+    .back{
+      margin : 20px 0;
+      padding : 0;
+    }
+    .name{
+      font-size : 1.5rem;
+      margin : 5px 0;
+      font-weight: bold;
+    }
+    .data{
+      margin : 5px 0;
+      padding: 5px;
+
+      .spec{
+        text-emphasis: true;
+      }
+    }
+    .avatar{
+      padding: 0 10px;
+      border: 1px solid #ddd;
+      img{
+        max-width: 110%;
+        width: 100%;
+      }
+    }
+
+    .friends{
+      border: 1px solid #ddd;
+      img{
+        max-width: 110%;
+        width: 100%;
+      }
+      .col{
+        padding: 0;
+      }
+    }
+  }
+
+
+  .search-results{
+
+    .profile-card{
+      padding : 10px;
+
+
+      .wrapper{
+        background: white;
+        text-align: center;
+        padding : 10px;
+        position: relative;
+
+        img{
+          max-width: 110%;
+          width: 100%;
+        }
+        > div{
+          margin : 5px 0;
+          &.name{
+            font-size : 1.2rem;
+          }
+          &.username{
+            font-size : .8rem;
+          }
+        }
+      }
+    }
+  }
+}
